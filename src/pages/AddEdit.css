@@ -1,0 +1,37 @@
+.form_container {
+  width: 780px;
+}
+.form_container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+.form_container form label {
+  width: 100%;
+
+}
+.form_container form label span{
+  margin-bottom: 8px;
+}
+.form_container form label input {
+  width: 100%;
+  padding: 12px;
+  border: 0;
+  outline: 0;
+  background: #f3f3f3;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+}
+.form_container form label input:focus {
+  border: 2px solid #009879;
+}
+.form_container button{
+  background: #009879;
+  padding: 8px 16px;
+  border: 0;
+  align-self: center;
+  color: #fff;
+  cursor: pointer;
+}
